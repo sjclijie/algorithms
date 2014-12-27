@@ -22,7 +22,6 @@
             while($arr[$j] >= $temp && $i < $j){
                 $j--;
             }
-
             //从左往右找
             while($arr[$i] <= $temp && $i < $j){
                 $i++;
